@@ -38,6 +38,12 @@ AddIconByType (IMG,/{FOLDERNAME}/theme/icons/image.png) image/*
 AddIconByType (SND,/{FOLDERNAME}/theme/icons/audio.png) audio/*
 AddIconByType (VID,/{FOLDERNAME}/theme/icons/video.png) video/*
 
+AddIconByType (pdf,/{FOLDERNAME}/theme/icons/pdf.png) application/pdf
+AddIconByType (zip,/{FOLDERNAME}/theme/icons/zip.png) application/zip
+AddIconByType (xml,/{FOLDERNAME}/theme/icons/xml.png) application/xml
+AddIconByType (doc,/{FOLDERNAME}/theme/icons/doc.png) application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document application/vnd.oasis.opendocument.text
+AddIconByType (calc,/{FOLDERNAME}/theme/icons/calc.png) application/vnd.ms-excel application/vnd.openxmlformats-officedocument.spreadsheetml.sheet application/vnd.oasis.opendocument.calc
+
 #
 # EXTENSION SPECIFIC ICONS
 #
@@ -47,12 +53,12 @@ AddIcon /{FOLDERNAME}/theme/icons/audio.png .aac .aif .aifc .aiff .ape .au .flac
 AddIcon /{FOLDERNAME}/theme/icons/bin.png .bin .hex
 AddIcon /{FOLDERNAME}/theme/icons/bmp.png .bmp
 AddIcon /{FOLDERNAME}/theme/icons/c.png .c
-AddIcon /{FOLDERNAME}/theme/icons/calc.png .xlsx .xlsm .xltx .xltm .xlam .xlr .xls .csv
+AddIcon /{FOLDERNAME}/theme/icons/calc.png .xlsm .xltx .xltm .xlam .xlr .csv
 AddIcon /{FOLDERNAME}/theme/icons/cd.png .iso
 AddIcon /{FOLDERNAME}/theme/icons/cpp.png .cpp
 AddIcon /{FOLDERNAME}/theme/icons/css.png .css .sass .scss
 AddIcon /{FOLDERNAME}/theme/icons/deb.png .deb
-AddIcon /{FOLDERNAME}/theme/icons/doc.png .doc .docx .docm .dot .dotx .dotm .log .msg .odt .pages .rtf .tex .wpd .wps
+AddIcon /{FOLDERNAME}/theme/icons/doc.png .docm .dot .dotx .dotm .log .msg .pages .rtf .tex .wpd .wps
 AddIcon /{FOLDERNAME}/theme/icons/draw.png .svg .svgz
 AddIcon /{FOLDERNAME}/theme/icons/eps.png .ai .eps
 AddIcon /{FOLDERNAME}/theme/icons/exe.png .exe
@@ -65,7 +71,6 @@ AddIcon /{FOLDERNAME}/theme/icons/jpg.png .jpg .jpeg .jpe
 AddIcon /{FOLDERNAME}/theme/icons/js.png .js .json
 AddIcon /{FOLDERNAME}/theme/icons/markdown.png .md
 AddIcon /{FOLDERNAME}/theme/icons/package.png .pkg .dmg
-AddIcon /{FOLDERNAME}/theme/icons/pdf.png .pdf
 AddIcon /{FOLDERNAME}/theme/icons/php.png .php .phtml
 AddIcon /{FOLDERNAME}/theme/icons/playlist.png .m3u .m3u8 .pls .pls8
 AddIcon /{FOLDERNAME}/theme/icons/png.png .png
@@ -81,8 +86,6 @@ AddIcon /{FOLDERNAME}/theme/icons/sql.png .sql
 AddIcon /{FOLDERNAME}/theme/icons/tiff.png .tiff .tif
 AddIcon /{FOLDERNAME}/theme/icons/text.png .txt .nfo .epub .mobi .azw
 AddIcon /{FOLDERNAME}/theme/icons/video.png .asf .asx .avi .flv .mkv .mov .mp4 .mpg .rm .srt .swf .vob .wmv .m4v .f4v .f4p .ogv
-AddIcon /{FOLDERNAME}/theme/icons/xml.png .xml
-AddIcon /{FOLDERNAME}/theme/icons/zip.png .zip
 DefaultIcon /{FOLDERNAME}/theme/icons/default.png
 
 #
