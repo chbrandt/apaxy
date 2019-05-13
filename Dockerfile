@@ -1,7 +1,7 @@
 FROM php:7.3-apache
-LABEL authors="Carlos Brandt <chbrandt@github>, Inti Gabriel <inti.gabriel+github@intigabriel.de>"
+LABEL maintainer="Carlos Brandt <chbrandt@github>"
 
-ARG HTDOCS=/var/www/html
+ENV HTDOCS=/var/www/html
 
 ENV APACHE_RUN_USER=www-data \
     APACHE_RUN_GROUP=www-data
@@ -20,10 +20,6 @@ RUN cd ${HTDOCS}                                            && \
         sed -i "s:/{FOLDERNAME}::g" {}                      && \
     mv htaccess.txt .htaccess                               && \
     mv theme/htaccess.txt theme/.htaccess
-
-
-RUN ["/bin/bash", "-c", \
-    "cd $HTDOCS && touch example.{gif,jpg,txt,md,mp4,zip,doc,xls,pdf,tex,c,mp3}"]
 
 EXPOSE 80
 
