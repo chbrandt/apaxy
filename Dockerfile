@@ -1,5 +1,6 @@
 FROM php:7.3-apache
-LABEL maintainer="Carlos Brandt <chbrandt@github>"
+
+MAINTAINER "Carlos H Brandt <chbrandt@github>"
 
 ENV HTDOCS=/var/www/html
 
