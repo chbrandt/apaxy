@@ -1,4 +1,5 @@
 apaxy:
+  container_name: apaxy
   build: .
   ports:
     - "80:80"
